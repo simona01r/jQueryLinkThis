@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>my Plugin</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="jquery.LinkThis/jquery.linkThis.js"></script>
+        <script>
+            $(document).ready(function () {
+                $("span").linkThis({
+                	href :"http://test.com",
+                	text :"Click this!",
+                	target : "_blank"
+                });
+            })
+        </script>
+
+    </head>
+    <body>
+        <h1>LinkThis Demo</h1>
+        <p>This is the jQuery linkThis demo. Let's convert <span>this text</span> into a link</p>
+
+    </body>
+</html>
